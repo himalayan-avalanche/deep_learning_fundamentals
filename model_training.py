@@ -214,7 +214,7 @@ class ModelTraining():
         plt.ylabel('Loss')
         plt.legend()
         plt.tight_layout()
-        return fig
+        plt.show()
 
     def correct(self, x, y, threshold=.5):
         self.model.eval()
